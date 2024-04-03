@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #4F000B;
+    padding: 14vw;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+
+header p {
+    margin-top: -10px;
+    font-weight: lighter;
+}
+
+#list {
+    background-color: #CE4257;
+    text-align: center;
+    padding: 25px;
+}
+
+#list li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 18px;
+    color: #3d1000;
+}
+
+#list ul:hover {
+    transition: 0.6s;
+    color: white;
+    font-size: 25px;
+}
+
+#dante {
+    padding: 60px;
+    background-color: #FF7F51;
+}
+
+#dante h2 {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    font-weight: 800;
+    color: #4F000B;
+}
+
+#dante div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#dante div img {
+    width: 400px;
+}
+
+#dante div p {
+    display: flex;
+    text-align: justify;
+    width: 600px;
+    font-size: 20px;
+}
+
+.impar {
+    padding: 20vw;
+    background-color: #720026;
+    color: white;
+}
+
+.impar h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.impar p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.impar p a {
+    text-decoration: none;
+    color: white;
+}
+
+.impar p a:hover {
+    color: red;
+}
+
+.par {
+    padding: 20vw;
+    background: linear-gradient(180deg, #ff9b545c 8.33%, #ff9b547d 100%), url(imagens/De\ ML\ para\ Delta.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+
+
+.par h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.par p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 16px;
+}
+
+.par2 {
+    padding: 20vw;
+    background: linear-gradient(180deg, #ff9b545c 8.33%, #ff9b547d 100%), url(imagens/True\ Delta.png);
+    background-size: cover;
+    color: #ffffff;
+}
+
+.par2 h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+}
+
+.par2 p {
+    text-align: justify;
+    font-size: 20px;
+    padding: 16px;
+}
+
+footer {
+    padding: 50px;
+    background-color: #4F000B;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
